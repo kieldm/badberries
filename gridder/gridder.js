@@ -46,7 +46,8 @@ class Gridder {
 
           /////////////////// ConfigWave
           // var dist0 = dist(x, y, this.fullWidth/2, this.fullHeight/2);
-          var dist0 = dist(x, y, this.fullWidth, this.fullHeight/2);
+          var dist0 = dist(x, y, this.fullWidth/2, this.fullHeight);
+          // var dist0 = dist(x, y, this.fullWidth, this.fullHeight/2);
 
           var distMap = map(dist0, 0, this.waveSize, 0, TWO_PI);
           var waver = map(sin(distMap + frameCount * this.waveSpeed), -1, 1, 0.05, 0.95);

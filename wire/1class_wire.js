@@ -27,7 +27,7 @@ class Mound {
   make(){
     this.colorSel = int(random(6));
 
-    this.lineLength = random(0, 600);
+    this.lineLength = random(0, 400);
     // this.lineLength = 50;
     this.points = [];
     this.actuals = [];

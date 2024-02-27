@@ -1,16 +1,16 @@
 var tFont = [];
 var pg = [];
 var colorSet = [];
-var pgTextSize = 200;
+var pgTextSize = 50;
 
-// var starterText = "BERRIES\nBERRIES\nBERRIES";
-var starterText = "NOT\nALL\nBAD";
+var starterText = "BERRIES\nBERRIES\nBERRIES\nBERRIES";
+// var starterText = "NOT\nALL\nBAD";
 // var starterText = "BAD";
 
 var words = [];
 var mounds = [];
 
-var fontSel = 2;
+var fontSel = 0;
 
 function preload(){
   tFont[0] = loadFont("resources/Inter-Medium.ttf");

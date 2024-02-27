@@ -38,7 +38,7 @@ function setup(){
 }
 
 function draw(){
-  background(0,0,255);
+  background(bkgdColor);
   // ortho();
 
   push();  
